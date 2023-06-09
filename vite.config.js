@@ -14,6 +14,7 @@ export default defineConfig({
 		'process.env': {},
 	},
 	build: {
-        chunkSizeWarningLimit: 100000000
-    },
+		chunkSizeWarningLimit: 160000,
+	  },
+
 });
